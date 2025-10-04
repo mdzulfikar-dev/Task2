@@ -1,0 +1,170 @@
+@font-face{
+    font-family: "Mycustom";
+    src: url("./Antion.ttf");
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{
+    
+    
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    
+}
+
+#nav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    width: 100%;
+    height: 6%;
+    
+    color:#fff;
+}
+
+#img{
+    width:  33px;
+    height: 33px;
+}
+
+#nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    
+}
+
+#content{
+    display: flex;
+    
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    background: #000;
+    position: relative;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    margin-top: 5%;
+    width: 60%;
+    height: 30%;
+    
+    
+}
+ h1{
+    text-align: center;
+    
+    font-size: 75px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+/* 
+.pro{
+    width: 80%;
+    
+    font-weight: 800;
+    display: block;
+    font-family: "Mycustom",sans-serif;
+    
+}
+
+
+ */
+ .Pro{
+    display: block;
+    color: #fff;
+    font-family: "Mycustom";
+    font-size: 50px;
+
+
+ }
+
+ #image{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    height: 90%;
+    background-color: #000;
+    
+    
+ }
+
+ #im{
+    width: 80%;
+    height:90%;
+    background-color: green;
+    background-image: url(https://www.apple.com/newsroom/images/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/tile/Apple-iPhone-17-Pro-camera-close-up-250909-lp.jpg.og.jpg?202509301918);
+ }
+/* 
+ 
+ button {
+    
+    width: 90px;
+    height: 90px;
+    background-color: green;
+    
+
+    
+ } */
+
+ #box{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    
+    top: 85%;
+    margin:10px;
+    gap: 40px;
+
+ }
+
+ #fbtn{
+    width: 150px;
+    border-radius: 50px;
+    border: 2px solid blue;
+    color:#fff;
+    background-color: transparent;
+
+
+ }
+
+ #sbtn{
+    width:90px;
+    border-radius: 50px;
+    color:#fff;
+    border: 2px solid blue;
+     background-color: transparent;
+ }    
+
+ #fbtn:hover{
+    background-color: blue;
+
+    
+ }
+
+ #sbtn:hover{
+    background-color: blue;
+ }
